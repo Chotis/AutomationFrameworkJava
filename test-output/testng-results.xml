@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Java  Test Framework" duration-ms="33246" started-at="2018-03-22T09:15:19Z" finished-at="2018-03-22T09:15:53Z">
+    <groups>
+    </groups>
+    <test name="SearchForNABSite" duration-ms="6567" started-at="2018-03-22T09:15:19Z" finished-at="2018-03-22T09:15:26Z">
+      <class name="com.automation.tests.BasePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.tests.BasePageTest@26be92ad]" name="initializeTestBaseSetup" is-config="true" duration-ms="4199" started-at="2018-03-22T09:15:19Z" finished-at="2018-03-22T09:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com.au/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.BasePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-22T09:15:23Z" finished-at="2018-03-22T09:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchForNABSite()[pri:0, instance:com.automation.tests.BasePageTest@26be92ad]" name="searchForNABSite" duration-ms="1705" started-at="2018-03-22T09:15:23Z" finished-at="2018-03-22T09:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForNABSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.BasePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="648" started-at="2018-03-22T09:15:25Z" finished-at="2018-03-22T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.BasePageTest -->
+    </test> <!-- SearchForNABSite -->
+    <test name="navigateToNABHomePage" duration-ms="11672" started-at="2018-03-22T09:15:26Z" finished-at="2018-03-22T09:15:38Z">
+      <class name="com.automation.tests.NavigateToNABHomePage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.tests.NavigateToNABHomePage@39c0f4a]" name="initializeTestBaseSetup" is-config="true" duration-ms="4222" started-at="2018-03-22T09:15:26Z" finished-at="2018-03-22T09:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com.au/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.NavigateToNABHomePage@39c0f4a]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-22T09:15:30Z" finished-at="2018-03-22T09:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToNABHomePage()[pri:0, instance:com.automation.tests.NavigateToNABHomePage@39c0f4a]" name="navigateToNABHomePage" duration-ms="6790" started-at="2018-03-22T09:15:30Z" finished-at="2018-03-22T09:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToNABHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.NavigateToNABHomePage@39c0f4a]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-03-22T09:15:37Z" finished-at="2018-03-22T09:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.NavigateToNABHomePage -->
+    </test> <!-- navigateToNABHomePage -->
+    <test name="completeLoanRepaymentForm" duration-ms="14964" started-at="2018-03-22T09:15:38Z" finished-at="2018-03-22T09:15:53Z">
+      <class name="com.automation.tests.CompleteLoanRepaymentForm">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.automation.tests.CompleteLoanRepaymentForm@1a968a59]" name="initializeTestBaseSetup" is-config="true" duration-ms="4220" started-at="2018-03-22T09:15:38Z" finished-at="2018-03-22T09:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com.au/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.tests.CompleteLoanRepaymentForm@1a968a59]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-22T09:15:42Z" finished-at="2018-03-22T09:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="completeLoanRepaymentForm()[pri:0, instance:com.automation.tests.CompleteLoanRepaymentForm@1a968a59]" name="completeLoanRepaymentForm" duration-ms="10062" started-at="2018-03-22T09:15:42Z" finished-at="2018-03-22T09:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeLoanRepaymentForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.CompleteLoanRepaymentForm@1a968a59]" name="tearDown" is-config="true" duration-ms="678" started-at="2018-03-22T09:15:52Z" finished-at="2018-03-22T09:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.CompleteLoanRepaymentForm -->
+    </test> <!-- completeLoanRepaymentForm -->
+  </suite> <!-- Java  Test Framework -->
+</testng-results>

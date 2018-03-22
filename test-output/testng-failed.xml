@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Java  Test Framework]">
+  <parameter name="appURL" value="https://www.google.com.au/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="completeLoanRepaymentForm(failed)">
+    <classes>
+      <class name="com.automation.tests.CompleteLoanRepaymentForm">
+        <methods>
+          <include name="setUp"/>
+          <include name="completeLoanRepaymentForm"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.tests.CompleteLoanRepaymentForm -->
+    </classes>
+  </test> <!-- completeLoanRepaymentForm(failed) -->
+</suite> <!-- Failed suite [Java  Test Framework] -->

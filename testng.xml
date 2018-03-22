@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Java  Test Framework">
+<parameter name="browserType"  value="chrome"/>
+<parameter name="appURL"  value="https://www.google.com.au/"/>
+  <test thread-count="5" name="SearchForNABSite">
+    <classes>
+      <class name="com.automation.tests.BasePageTest"/>
+    </classes>
+  </test> <!-- SearchForNABSite -->
+   <test thread-count="5" name="navigateToNABHomePage">
+    <classes>
+      <class name="com.automation.tests.NavigateToNABHomePage"/>
+    </classes>
+  </test> <!-- navigateToNABHomePage -->
+   <test thread-count="5" name="completeLoanRepaymentForm">
+    <classes>
+      <class name="com.automation.tests.CompleteLoanRepaymentForm"/>
+    </classes>
+  </test> <!-- completeLoanRepaymentForm -->
+</suite> <!-- Java  Test Framework -->
